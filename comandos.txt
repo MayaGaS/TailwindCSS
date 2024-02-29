@@ -1,3 +1,6 @@
 npm init -y
 npm install -D tailwindcss
 npm install -g npm@10.4.0
+npx tailwind init 
+npx tailwindcss -i tailwind.css -o styles.css --minify // compila las clases que se necesitan 
+npm i -D vite postcss autoprefixer
