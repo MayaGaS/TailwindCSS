@@ -7,7 +7,18 @@
 
     <title>Instalacion Tailwind</title>
 </head>
-<body>
-    <h1 class="text-3xl font-mono underline text-green-500"> Hallo Welt TailwindCSS </h1>
+<body class="bg-gray-300">
+
+    <header class="bg-white shadow px-6">
+        <div class="flex h-16 items-center justify-between">
+            <button class="text-gray-700 hover:text-blue-600 hover:bg-blue-50 transition-colors runded p-1 m-1 focus:ring-1 focus:ring-slate-7">
+                <svg class="h-8 w-8" data-slot="icon" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"></path>
+                </svg>
+            </button>
+            <button>theme</button>
+            <button>user</button>
+        </div>
+    </header>
 </body>
 </html>
